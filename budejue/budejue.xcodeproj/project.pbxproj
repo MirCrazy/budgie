@@ -13,6 +13,7 @@
 		98D462D41D911270004F4090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D462D21D911270004F4090 /* Main.storyboard */; };
 		98D462D61D911270004F4090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D462D51D911270004F4090 /* Assets.xcassets */; };
 		98D462D91D911270004F4090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D462D71D911270004F4090 /* LaunchScreen.storyboard */; };
+		98D462E21D9114F2004F4090 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D462E11D9114F2004F4090 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		98D462D51D911270004F4090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98D462D81D911270004F4090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98D462DA1D911270004F4090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D462E01D9114F2004F4090 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		98D462E11D9114F2004F4090 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				98D462CC1D911270004F4090 /* AppDelegate.h */,
 				98D462CD1D911270004F4090 /* AppDelegate.m */,
+				98D462E01D9114F2004F4090 /* Dog.h */,
+				98D462E11D9114F2004F4090 /* Dog.m */,
 				98D462CF1D911270004F4090 /* ViewController.h */,
 				98D462D01D911270004F4090 /* ViewController.m */,
 				98D462D21D911270004F4090 /* Main.storyboard */,
@@ -153,6 +158,7 @@
 			files = (
 				98D462D11D911270004F4090 /* ViewController.m in Sources */,
 				98D462CE1D911270004F4090 /* AppDelegate.m in Sources */,
+				98D462E21D9114F2004F4090 /* Dog.m in Sources */,
 				98D462CB1D911270004F4090 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
